@@ -1,0 +1,58 @@
+@font-face {
+    font-family: BebasNeue;
+    src: url(../BebasNeue.otf);
+}
+
+.header{
+	font-family: BebasNeue;
+	text-align: left;
+	color: #bbaa92;
+	font-size: 4em;
+
+}
+
+.navbark{
+	font-family: BebasNeue;
+	text-align: left;
+	color: #bbaa92;
+	font-size: 2em;
+	border-bottom: 3px solid #bbaa92;
+	margin-bottom: 20px;
+
+}
+
+span {
+	margin-right:16px;
+}
+
+.teeny{
+	height:526px;
+	width:1140px;
+	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
+-moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
+box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
+}
+
+body{
+	background-image: url(../images/light_grey.png);
+}
+
+.holder{
+	padding-bottom: 27px;
+	border-bottom: 3px solid #bbaa92;
+}
+
+.social{
+	height:50px;
+	width:50px;
+	position: relative;
+	right:50%;
+	left:50%;
+}
+.tinysocial{
+	
+}
+
+.socialbox{
+	margin-top:20px;
+}
