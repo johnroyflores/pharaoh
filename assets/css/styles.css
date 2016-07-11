@@ -6,7 +6,7 @@
 .header{
 	font-family: BebasNeue;
 	text-align: left;
-	color: #bbaa92;
+	color: #84754E;
 	font-size: 4em;
 
 }
@@ -14,12 +14,20 @@
 .navbark{
 	font-family: BebasNeue;
 	text-align: left;
-	color: #bbaa92;
+	color: #84754E;
 	font-size: 2em;
-	border-bottom: 3px solid #bbaa92;
+	border-bottom: 3px solid #84754E;
 	margin-bottom: 20px;
 	text-decoration: none;
 
+}
+
+.textbox{
+	width:45%;
+	margin:0 auto;
+	position: relative;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 500;
 }
 
 span {
@@ -36,19 +44,20 @@ box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 
 body{
 	background-image: url(../images/light_grey.png);
+	/*background-color: #fdf6ec;*/
 }
 
 .holder{
 	padding-bottom: 27px;
-	border-bottom: 3px solid #bbaa92;
+	border-bottom: 3px solid #84754E;
 }
 
 .social{
 	height:50px;
 	width:50px;
 	position: relative;
-	right:50%;
 	left:50%;
+	right:50%;
 }
 .tinysocial{
 	
@@ -56,6 +65,7 @@ body{
 
 .socialbox{
 	margin-top:20px;
+
 }
 
 a{
