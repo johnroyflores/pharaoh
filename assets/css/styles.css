@@ -12,7 +12,7 @@
 	text-align: left;
 	color: #84754E;
 	font-size: 4em;
-	background-color:#edebdd;
+	background-color:black;
 	margin-bottom: 0px;
 	padding-bottom: 5px;
 	padding-left: 1.25em;
@@ -27,7 +27,7 @@
 	border-bottom: 3px solid #84754E;
 	margin-bottom: 20px;
 	text-decoration: none;
-	background-color:#edebdd;
+	background-color:black;
 	padding-left: 2.6em;
 
 }
@@ -45,11 +45,14 @@ span {
 }
 
 .teeny{
-	height:526px;
-	width:1140px;
+	height:461px;
+	width:1000px;
 	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
+/*position: relative;*/
+display: block;
+margin:0 auto;
 }
 
 body{
