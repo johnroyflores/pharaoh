@@ -1,13 +1,19 @@
+*{
+	box-sizing: border-box;
+}
+
 @font-face {
     font-family: BebasNeue;
     src: url(../BebasNeue.otf);
 }
 
-.header{
+.headerr{
 	font-family: BebasNeue;
 	text-align: left;
 	color: #84754E;
 	font-size: 4em;
+	background-color:;
+	margin-bottom: 0px;
 
 }
 
@@ -19,6 +25,7 @@
 	border-bottom: 3px solid #84754E;
 	margin-bottom: 20px;
 	text-decoration: none;
+	background-color:;
 
 }
 
