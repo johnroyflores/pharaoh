@@ -9,13 +9,20 @@
 
 .headerr{
 	font-family: BebasNeue;
-	text-align: left;
+	text-align: center;
 	color: #84754E;
 	font-size: 4em;
 	background-color:black;
 	margin-bottom: 0px;
-	padding-bottom: 5px;
-	padding-left: 1.25em;
+	padding-bottom: 0px;
+
+
+}
+
+.container{
+	/*background-image: url(../images/tiled.png);*/
+	background-image: url(../images/tiled.png);
+	width:100%;
 
 }
 
@@ -23,13 +30,20 @@
 	font-family: BebasNeue;
 	text-align: left;
 	color: #84754E;
-	font-size: 2em;
+	font-size: 1.5em;
 	border-bottom: 3px solid #84754E;
-	margin-bottom: 20px;
+	border-top: 2px solid #84754E;
+	/*margin-bottom: 20px;*/
 	text-decoration: none;
-	background-color:black;
-	padding-left: 2.6em;
+	/*background-color:black;*/
+	padding-top:6px;
+	padding-bottom: 3px;
+	text-align: center;
 
+}
+
+.toplink{
+	margin: 0 1.5em;
 }
 
 .textbox{
@@ -38,6 +52,7 @@
 	position: relative;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 500;
+    font-size: 2em;
 }
 
 span {
@@ -55,30 +70,42 @@ display: block;
 margin:0 auto;
 }
 
+.mainpyramid{
+	-webkit-transform: scale(0.75); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.75); /* FF3.5+ */
+      -ms-transform: scale(0.75); /* IE9 */
+       -o-transform: scale(0.75); /* Opera 10.5+ */
+          transform: scale(0.75);
+}
+
 body{
-	background-image: url(../images/tiled.png);
-	/*background-color: #fdf6ec;*/
+	
+	background-color: black;
 }
 
 .holder{
-	padding-bottom: 27px;
-	border-bottom: 3px solid #84754E;
+	padding-bottom: 20px;
+	padding-top:20px;
+	
 }
 
 .social{
 	height:50px;
 	width:50px;
-	position: relative;
-	left:50%;
-	right:50%;
+	
+	background-color: black;
 }
 .tinysocial{
-	
+	background-color: black;
 }
 
 .socialbox{
-	margin-top:20px;
+	
 	margin-bottom: 20px;
+	padding-top: 20px;
+	width: 100%;
+	border-top: 3px solid #84754E;
+	background-color: black;
 
 }
 
