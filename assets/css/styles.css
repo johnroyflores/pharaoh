@@ -60,8 +60,11 @@ span {
 }
 
 .teeny{
-	height:461px;
-	width:1000px;
+	-webkit-transform: scale(0.75); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.75); /* FF3.5+ */
+      -ms-transform: scale(0.75); /* IE9 */
+       -o-transform: scale(0.75); /* Opera 10.5+ */
+          transform: scale(0.75);
 	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
