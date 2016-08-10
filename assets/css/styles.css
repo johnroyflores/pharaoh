@@ -131,6 +131,17 @@ a:hover{
 
 }
 
+.highlight{
+    /*display:inline;*/
+    background-color:#84754E;
+    color:;
+}
+
+.textbox{
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
 /*BOOTSTRAP PRODUCT PAGE SNIPPET BEGINS HERE*/
 /*******************************************/
 
