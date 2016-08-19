@@ -180,22 +180,24 @@ a:hover{
 	background-color:#84754E;
 	font-family: BebasNeue;
 	font-size: 1.1em;
+	border-color:#84754E;
 }
 
-/*.panel-body{
-	background-color:#84754E;
-	font-family: BebasNeue;
-}*/
+.panel-body{
+	border-color:#84754E;
+}
 
 .panel-default{
 	font-size: 1.1em;
 	font-family: BebasNeue;
+	border-color:#84754E;
 }
 
 
 #headingTwo{
 	background-color: black;
 	color:#84754E;
+	border-color:#84754E;
 }
 
 #collapseTwo{
