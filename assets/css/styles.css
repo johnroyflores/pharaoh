@@ -3,8 +3,9 @@
 	margin-right: 0px;
 }
 
-html{
-	width:100%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 @font-face {
     font-family: BebasNeue;
