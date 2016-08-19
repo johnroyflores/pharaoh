@@ -358,7 +358,7 @@ h4{
 
 .content-wrapper {
 	max-width: 1140px;
-	background: #fff;
+	background: black;
 	margin: 0 auto;
 	margin-top: 25px;
 	margin-bottom: 10px;
@@ -439,4 +439,14 @@ h4{
 	vertical-align: middle;
 	margin:auto auto;
 	
+}
+
+.product-info{
+	border-bottom: 5px #84754E;
+	background-color: black;
+
+}
+
+.black{
+	background-color: black;
 }

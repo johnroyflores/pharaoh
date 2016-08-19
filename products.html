@@ -33,20 +33,20 @@
                                     <img src="assets/images/productpic.jpg" alt=""></img>
                                 </a>
                                 <a id="item-2" class="service1-item">
-                                    <img src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
+                                    <img src="assets/images/productpic.jpg" alt=""></img>
                                 </a>
                                 <a id="item-3" class="service1-item">
-                                    <img src="http://www.corsair.com/Media/catalog/product/g/s/gs600_psu_sideview_blue_2.png" alt=""></img>
+                                    <img src="assets/images/productpic.jpg" alt=""></img>
                                 </a>
                             </center>
                         </div>
                     </div>
                     <div class="col-md-7">
                         <div class="product-title">500mg Cartridge</div>
-                        <div class="product-desc">500mg Indica Cartridge for use with Pyramid Pens batteries</div>
+                        <div class="product-desc">500mg Cartridge for use with Pyramid Pens batteries</div>
                         <div class="product-rating"><i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star gold"></i> <i class="fa fa-star-o"></i> </div>
                         <hr>
-                        <div class="product-price">$ 1234.00</div>
+                        <!-- <div class="product-price">$ 1234.00</div> -->
                         <div class="product-stock">In Stock</div>
                         <hr>
                     </div>
@@ -56,38 +56,29 @@
                 <div class="col-md-12 product-info">
                     <ul id="myTab" class="nav nav-tabs nav_tabs">
                         <li class="active"><a href="#service-one" data-toggle="tab">DESCRIPTION</a></li>
-                        <li><a href="#service-two" data-toggle="tab">PRODUCT INFO</a></li>
+                        <!-- <li><a href="#service-two" data-toggle="tab">PRODUCT INFO</a></li> -->
                     </ul>
                     <div id="myTabContent" class="tab-content">
                         <div class="tab-pane fade in active" id="service-one">
-                            <section class="container product-info">
-                                <p class="highlight">The 500mg Pyramid Pens Indica cartridge is made with only the finest cannabis under the strictest lab conditions.
+                            <div class="containerrr product-info black">
+                                <p class="highlight">The 500mg Pyramid Pens cartridge is made with only the finest cannabis under the strictest lab conditions.
                                     <br>Every cartridge is forged with 100% CO2 extracted, high-quality, cannabis extract.</p>
-                                <h3 class="highlight">500mg Indica Catridge Features:</h3>
-                                <li class="highlight">It supports the latest ATX12V v2.3 standard and is backward compatible with ATX12V 2.2 and ATX12V 2.01 systems</li>
-                                <li class="highlight">An ultra-quiet 140mm double ball-bearing fan delivers great airflow at an very low noise level by varying fan speed in response to temperature</li>
-                                <li class="highlight">80Plus certified to deliver 80% efficiency or higher at normal load conditions (20% to 100% load)</li>
-                                <li class="highlight">0.99 Active Power Factor Correction provides clean and reliable power</li>
-                                <li class="highlight">Universal AC input from 90~264V — no more hassle of flipping that tiny red switch to select the voltage input!</li>
-                                <li class="highlight">Extra long fully-sleeved cables support full tower chassis</li>
-                                <li class="highlight">A three year warranty and lifetime access to Corsair’s legendary technical support and customer service</li>
-                                <li class="highlight">Over Current/Voltage/Power Protection, Under Voltage Protection and Short Circuit Protection provide complete component safety</li>
-                                <li class="highlight">Dimensions: 150mm(W) x 86mm(H) x 160mm(L)</li>
-                                <li class="highlight">MTBF: 100,000 hours</li>
-                                <li class="highlight">Safety Approvals: UL, CUL, CE, CB, FCC Class B, TÜV, CCC, C-tick</li>
-                            </section>
+                                <h3 class="highlight">500mg Cartridge Features:</h3>
+                                <li class="highlight">This cartridge contains 500mg of pure CO2 oil and is the staple of our lineup. The CO2 oil is triple filtered and sourced from the finest bud this market has to offer. You won't find a cleaner, tastier cartridge on the market. </li>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="service-two">
+                      <!--   <div class="tab-pane fade" id="service-two">
                             <p class="highlight">Some shit goes here</p>
                             <section class="container">
                                 <p class="highlight">Some shit goes here</p>
-                            </section>
+                            </section> -->
                         </div>
                         <div class="tab-pane fade" id="service-three">
                         </div>
                     </div>
                     <hr>
                 </div>
+            </div>
             </div>
             <div class="socialbox">
                 <div class="tinysocial text-center">
@@ -98,8 +89,35 @@
                     <a href = "https://twitter.com/pyramidpensusa"><img class="social" src="assets/images/twitter.gif"></a>
                 </div>
             </div>
-            <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+               <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script>
+    $(document).ready(function() {
+        if ($.cookie("pop") == null) {
+            $("#ageModal").modal("show");
+            $.cookie("pop", "2");
+        }
+    });
+    </script>
+    <!-- Modal -->
+<div class="modal fade" id="ageModal" tabindex="-1" role="dialog" aria-labelledby="ageModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="ageModalLabel">Keep an eye out!</h4>
+      </div>
+      <div class="modal-body">
+      <h2>We're constantly adding new products to our lineup.</h2>
+      <p>Check back soon to see what else our labs have concoted.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Got it.</button>
+        <!-- <a href="http://disney.com" class="btn btn-default">Exit</a> -->
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>
