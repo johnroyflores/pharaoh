@@ -72,8 +72,12 @@ html{
 
 
 .teeny{
-	height:;
-	width:;
+	-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.85); /* FF3.5+ */
+      -ms-transform: scale(0.85); /* IE9 */
+       -o-transform: scale(0.85); /* Opera 10.5+ */
+          transform: scale(0.85);
+}
 
 	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
@@ -198,6 +202,7 @@ a:hover{
 	background-color: black;
 	color:#84754E;
 	border-color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseTwo{
@@ -209,6 +214,7 @@ a:hover{
 #headingOne{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseOne{
@@ -220,6 +226,7 @@ a:hover{
 #headingThree{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseThree{
@@ -231,6 +238,7 @@ a:hover{
 #headingFour{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseFour{
@@ -242,6 +250,7 @@ a:hover{
 #headingFive{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseFive{
@@ -253,6 +262,7 @@ a:hover{
 #headingSix{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseSix{
@@ -264,6 +274,7 @@ a:hover{
 #headingSeven{
 	background-color: black;
 	color:#84754E;
+	font-size: 1.1em;
 }
 
 #collapseSeven{
@@ -276,6 +287,9 @@ a:hover{
 	font-size: 1.1em;
 }
 
+h4{
+	font-size: 1.1em;
+}
 /*Panel CSS*/
 /*BOOTSTRAP PRODUCT PAGE SNIPPET BEGINS HERE*/
 /*******************************************/
