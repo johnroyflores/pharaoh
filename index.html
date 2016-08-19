@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Project Pharaoh</title>
+    <title>Pyramid Pens</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <!-- Optional theme -->
     <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"> -->
@@ -13,7 +13,7 @@
 
 <body>
     <div class="headerr">
-        <img class = "mainpyramid"src="assets/images/pyramid.png">
+        <img class="mainpyramid" src="assets/images/pyramid.png">
     </div>
     <div class="navbark">
         <span class="hvr-underline-from-center toplink"><a href = "index.html">home</a></span><span class="hvr-underline-from-center toplink"><a href = "about.html">About us</a></span><span class="hvr-underline-from-center toplink"><a href = "products.html">products</a></span><span class="hvr-underline-from-center"><a href = "faq.html">FAQ</a></span>
@@ -25,13 +25,43 @@
     </div>
     <div class="socialbox">
         <div class="tinysocial text-center">
-            <img class="social" src="assets/images/facebook.gif">
+            <!-- <img class="social" src="assets/images/facebook.gif"> -->
             <a href="https://www.instagram.com/pyramidpensusa/">
                 <img class="social" src="assets/images/instagram.gif">
             </a>
-            <img class="social" src="assets/images/twitter.gif">
+            <!-- <img class="social" src="assets/images/twitter.gif"> -->
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script>
+    $(document).ready(function() {
+        if ($.cookie("pop") == null) {
+            $("#ageModal").modal("show");
+            $.cookie("pop", "2");
+        }
+    });
+    </script>
+    <!-- Modal -->
+<div class="modal fade" id="ageModal" tabindex="-1" role="dialog" aria-labelledby="ageModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="ageModalLabel">Age Verification</h4>
+      </div>
+      <div class="modal-body">
+      <h2>Adults only (21+)</h2>
+      <p>This website contains adult products only suitable for those 21 years or older.</p>
+      <p>Enter only if you are at least 21 years of age.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Enter</button>
+        <a href="http://disney.com" class="btn btn-default">Exit</a>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 
 </html>

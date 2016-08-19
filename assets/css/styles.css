@@ -23,6 +23,7 @@ html{
 
 }
 
+
 .container{
 	/*background-image: url(../images/tiled.png);*/
 	background-image: url(../images/tiled.png);
@@ -61,6 +62,11 @@ html{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 500;
     font-size: 2em;
+    background-color: black;
+    border: 1px solid #84754E;
+    padding:2px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 
@@ -78,11 +84,11 @@ margin:0 auto;*/
 }
 
 .mainpyramid{
-	-webkit-transform: scale(0.75); /* Saf3.1+, Chrome */
-     -moz-transform: scale(0.75); /* FF3.5+ */
-      -ms-transform: scale(0.75); /* IE9 */
-       -o-transform: scale(0.75); /* Opera 10.5+ */
-          transform: scale(0.75);
+	-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
+     -moz-transform: scale(0.85); /* FF3.5+ */
+      -ms-transform: scale(0.85); /* IE9 */
+       -o-transform: scale(0.85); /* Opera 10.5+ */
+          transform: scale(0.85);
 }
 
 body{
@@ -133,14 +139,37 @@ a:hover{
 
 .highlight{
     /*display:inline;*/
-    background-color:#84754E;
-    color:;
+    color:#84754E;
+    
 }
 
 .textbox{
 	font-size: 1em;
 	line-height: 1.5em;
 }
+
+/*Modal CSS*/
+
+.modal-header{
+	background-color:#84754E;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	font-family: BebasNeue;
+	}
+
+.modal-body{
+	background-color:#84754E;
+	
+	font-family: BebasNeue;
+	}
+.modal-footer{
+	background-color:#84754E;
+	border-bottom-left-radius: 5px;
+
+	border-bottom-right-radius: 5px;
+	font-family: BebasNeue;
+	}
+/*End Modal CSS*/
 
 /*BOOTSTRAP PRODUCT PAGE SNIPPET BEGINS HERE*/
 /*******************************************/
