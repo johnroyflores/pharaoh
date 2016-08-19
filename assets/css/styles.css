@@ -179,6 +179,7 @@ a:hover{
 .panel-heading{
 	background-color:#84754E;
 	font-family: BebasNeue;
+	font-size: 1.1em;
 }
 
 /*.panel-body{
@@ -187,84 +188,91 @@ a:hover{
 }*/
 
 .panel-default{
-
+	font-size: 1.1em;
 	font-family: BebasNeue;
 }
 
-#headingOne{
-	background-color:#84754E;
-	font-family: BebasNeue;
-	color:black;
-}
 
-#collapseOne{
-	background-color: black;
-	color:#84754E;
-}
 #headingTwo{
 	background-color: black;
 	color:#84754E;
 }
-#headingThree{
-	background-color:#84754E;
+
+#collapseTwo{
+	background-color:black;
 	font-family: BebasNeue;
-	color:black;
+	color:#84754E;
 }
-#collapseThree{
+
+#headingOne{
 	background-color: black;
 	color:#84754E;
 }
-#collapseThree{
+
+#collapseOne{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+
+#headingThree{
 	background-color: black;
+	color:#84754E;
+}
+
+#collapseThree{
+	background-color:black;
+	font-family: BebasNeue;
 	color:#84754E;
 }
 
 #headingFour{
-	background-color:black;
-	font-family: BebasNeue;
+	background-color: black;
 	color:#84754E;
-}
-#headingFive{
-	background-color:#84754E;
-	font-family: BebasNeue;
-	color:black;
-}
-#headingSix{
-	background-color:black;
-	font-family: BebasNeue;
-	color:#84754E;
-}
-#headingSeven{
-	background-color:#84754E;
-	font-family: BebasNeue;
-	color:black;
-}
-
-#collapseTwo{
-	background-color:#84754E;
-	font-family: BebasNeue;
 }
 
 #collapseFour{
-	background-color:#84754E;
+	background-color:black;
 	font-family: BebasNeue;
+	color:#84754E;
 }
+
+#headingFive{
+	background-color: black;
+	color:#84754E;
+}
+
 #collapseFive{
 	background-color:black;
 	font-family: BebasNeue;
 	color:#84754E;
 }
-#collapseSix{
-	background-color:#84754E;
-	font-family: BebasNeue;
-	color:black;
+
+#headingSix{
+	background-color: black;
+	color:#84754E;
 }
+
+#collapseSix{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+
+#headingSeven{
+	background-color: black;
+	color:#84754E;
+}
+
 #collapseSeven{
 	background-color:black;
 	font-family: BebasNeue;
 	color:#84754E;
 }
 
+.panel-group{
+	font-size: 1.1em;
+}
 
 /*Panel CSS*/
 /*BOOTSTRAP PRODUCT PAGE SNIPPET BEGINS HERE*/
