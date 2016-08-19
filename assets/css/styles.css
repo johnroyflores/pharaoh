@@ -171,6 +171,102 @@ a:hover{
 	}
 /*End Modal CSS*/
 
+/*Panel CSS*/
+.panel{
+	
+	font-family: BebasNeue;
+}
+.panel-heading{
+	background-color:#84754E;
+	font-family: BebasNeue;
+}
+
+/*.panel-body{
+	background-color:#84754E;
+	font-family: BebasNeue;
+}*/
+
+.panel-default{
+
+	font-family: BebasNeue;
+}
+
+#headingOne{
+	background-color:#84754E;
+	font-family: BebasNeue;
+	color:black;
+}
+
+#collapseOne{
+	background-color: black;
+	color:#84754E;
+}
+#headingTwo{
+	background-color: black;
+	color:#84754E;
+}
+#headingThree{
+	background-color:#84754E;
+	font-family: BebasNeue;
+	color:black;
+}
+#collapseThree{
+	background-color: black;
+	color:#84754E;
+}
+#collapseThree{
+	background-color: black;
+	color:#84754E;
+}
+
+#headingFour{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+#headingFive{
+	background-color:#84754E;
+	font-family: BebasNeue;
+	color:black;
+}
+#headingSix{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+#headingSeven{
+	background-color:#84754E;
+	font-family: BebasNeue;
+	color:black;
+}
+
+#collapseTwo{
+	background-color:#84754E;
+	font-family: BebasNeue;
+}
+
+#collapseFour{
+	background-color:#84754E;
+	font-family: BebasNeue;
+}
+#collapseFive{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+#collapseSix{
+	background-color:#84754E;
+	font-family: BebasNeue;
+	color:black;
+}
+#collapseSeven{
+	background-color:black;
+	font-family: BebasNeue;
+	color:#84754E;
+}
+
+
+/*Panel CSS*/
 /*BOOTSTRAP PRODUCT PAGE SNIPPET BEGINS HERE*/
 /*******************************************/
 
