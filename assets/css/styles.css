@@ -21,7 +21,22 @@ html, body {
 	margin-bottom: 0px;
 	padding-bottom: 0px;
 
+}
 
+.stickyPen{
+	position:absolute;
+	top:70px;
+	font-family: BebasNeue;
+	color: #84754E;
+	font-size: 3em;
+
+}
+
+.sticky {
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  top:0;
 }
 
 
@@ -78,7 +93,7 @@ html, body {
       -ms-transform: scale(0.85); /* IE9 */
        -o-transform: scale(0.85); /* Opera 10.5+ */
           transform: scale(0.85);
-}
+
 
 	-webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
 -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.59);
@@ -89,11 +104,13 @@ margin:0 auto;*/
 }
 
 .mainpyramid{
-	-webkit-transform: scale(0.85); /* Saf3.1+, Chrome */
-     -moz-transform: scale(0.85); /* FF3.5+ */
-      -ms-transform: scale(0.85); /* IE9 */
-       -o-transform: scale(0.85); /* Opera 10.5+ */
-          transform: scale(0.85);
+	-webkit-transform: scale(1.2); /* Saf3.1+, Chrome */
+     -moz-transform: scale(1.2); /* FF3.5+ */
+      -ms-transform: scale(1.2); /* IE9 */
+       -o-transform: scale(1.2); /* Opera 10.5+ */
+          transform: scale(1.2);
+          margin-bottom: .2em;
+          margin-top: .3em;
 }
 
 body{
@@ -140,6 +157,17 @@ a:hover{
 	text-decoration: none;
 	color:inherit;
 
+}
+
+img{
+
+border:0px;
+
+}
+
+img a, img a:link, img a:active, img a:visited, img a:hover{
+
+border:0px;
 }
 
 .highlight{
